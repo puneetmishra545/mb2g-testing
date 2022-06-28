@@ -2,10 +2,13 @@ package guru.springframework;
 
 import org.junit.jupiter.api.Test;
 
-public class Junit5FauxTest {
+/**
+ * Created by jt on 2018-12-09.
+ */
+public class JUnit5FauxTest {
 
     @Test
-    void someTestForJunit5() {
+    void someTestforJUnit5() {
         System.out.println("I Ran....");
     }
 }
