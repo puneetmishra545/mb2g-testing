@@ -2,12 +2,14 @@ package guru.springframework;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class JavaHelloWorldIT {
+/**
+ * Created by jt on 2018-12-14.
+ */
+public class JavaHelloWorldIT {
 
     @Test
-    void getHello() {
-        System.out.println("IT Ran...");
+    void myFauxIntegrationTest() {
+
+        System.out.println("My IT Ran");
     }
 }
